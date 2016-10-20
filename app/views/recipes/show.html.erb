@@ -1,0 +1,11 @@
+<h1><%= @recipe.name %></h1>
+
+<h2><%= "For #{@recipe.servings} Person" %></h2>
+
+<p><%= @recipe.instructions %></p>
+
+<div>
+  <a href="<%= "/recipes/#{@recipe.id}/edit" %>"><button>Edit</button></a>
+</div>
+
+<a href="<%= "#{@parent_path}/recipes" %>">Back</a>

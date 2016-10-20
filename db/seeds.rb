@@ -7,7 +7,7 @@ end
 #   Ingredient.create(name: Faker::Food.ingredient)
 # end
 
-["Appatizer", "Main", "Sides", "Deserts"].each do |course|
+["Appetizer", "Main", "Sides", "Deserts"].each do |course|
   c_params = {
     name: course
   }
